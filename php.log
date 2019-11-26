@@ -22227,3 +22227,47 @@ samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesa
 )
 
 [24-Nov-2019 17:38:11 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:セッションID：dcc2pq6t6i553gdaguk4la4eaj
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1574584688
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574586824
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:論文情報を取得します
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:クエリに成功しました
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:クエリに成功しました
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:クエリに成功しました
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:現在のページ：1
+[24-Nov-2019 18:13:44 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:セッションID：o12n8ijntoc07pej801l3lbdbn
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1574584688
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574772554
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
