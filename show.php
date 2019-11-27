@@ -24,7 +24,8 @@ require('head.php');
 ?>
   <main class="container-wrapper">
     <div class="site-width">
-      <div class="article">
+
+      <section class="article">
         <h1 class="article-title"><?php echo sanitize($viewData['title']); ?></h1>
         <div class="article-image">
           <img src="<?php echo showImg(sanitize($viewData['image'])); ?>" alt="">
@@ -39,7 +40,11 @@ require('head.php');
           <h2>本文</h2>
           <p><?php echo nl2br(sanitize($viewData['detail'])); ?></p>
         </div>
-      </div>
+      </section>
+
+      <?php
+        require('sidebar.php');
+      ?>
     </div>
   </main>
 <?php

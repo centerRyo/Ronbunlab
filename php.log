@@ -22271,3 +22271,898 @@ samplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesamplesa
 [26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:クエリに成功しました
 [26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:現在のページ：1
 [26-Nov-2019 21:49:14 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:セッションID：vq2kpgprfiqarri9dfeqqg9h4r
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1574584688
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773070
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 21:57:50 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:セッションID：773tpjjtk1g8ppir8k24s8v1mu
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1574584688
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773178
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 21:59:38 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:　マイページ　
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:セッションID：fulkrfal7geifmjgi3uk717sbc
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1574584688
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773189
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:ログイン済みユーザーです
+[26-Nov-2019 21:59:49 Asia/Tokyo] デバッグ:ログイン有効期限内です
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:　ログアウトページ　
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:セッションID：sd6d0ftq694e33kj2l3odnk76d
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1574773189
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773190
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:ログアウトします
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:　ログインページ　
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:セッションID：14rjignnacvv1spakkob08cclg
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773190
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:未ログインユーザーです
+[26-Nov-2019 21:59:50 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:セッションID：sjc37kgg1t7gvfbp3oe7667oqd
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773233
+[26-Nov-2019 22:00:33 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:00:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:00:34 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:00:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:00:34 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:00:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:00:34 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:00:34 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:セッションID：06gf0a6a6bj9s0b26gubnc1cg1
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773296
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:01:36 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:セッションID：igc1b89frcjbe8f0onfiglhafm
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773459
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:04:19 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:　ログインページ　
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:セッションID：l3l99hvobpiskluogvqkn25hj0
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773471
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:未ログインユーザーです
+[26-Nov-2019 22:04:31 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:セッションID：eieqqfrqcpjrqkap1te6kde7rj
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773492
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:04:52 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:セッションID：dqbk47p5cq2hhon45ctpopjkb4
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773749
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:09:09 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:セッションID：1jgf446b0j9jul0lub7urosvn9
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773903
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:11:43 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:セッションID：jljf8jo3ned46f8kfg692c0v1j
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773906
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:論文ID：4
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態で ある。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が 亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻 によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させるこ とが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存 的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA 抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそ れらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細 菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用い て結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻 酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害 や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色 においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投 与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障 害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗 体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではな いかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの 減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[26-Nov-2019 22:11:46 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:セッションID：utp85sb2jtdft9oumqpgs02vcp
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773911
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:11:51 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:セッションID：4j8tbo4166qdm6clopp19176q0
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773951
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:12:31 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:12:31 Asia/Tokyo] PHP Notice:  Undefined index: category in /Applications/MAMP/htdocs/ronbunlab/index.php on line 53
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:セッションID：bobqccbokeo62a7t2215mkfsen
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773974
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:12:54 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:12:54 Asia/Tokyo] PHP Notice:  Array to string conversion in /Applications/MAMP/htdocs/ronbunlab/index.php on line 53
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:セッションID：cphdfi66nt2btn94pd8vphr4ag
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574773990
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:13:10 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:セッションID：2s085b3r1sb8vj2h9gvivbqovd
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774030
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:SQL:SELECT * FROM ronbun LIMIT 12 OFFSET 0
+[26-Nov-2019 22:13:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:セッションID：kqfmu0ae8t0m8cc1se2ad5l6rs
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774149
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:15:49 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:セッションID：fl97rbucmpesr3iad2179qmcm7
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774186
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:16:26 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:セッションID：sudlk7np42rar7g541db6h6h1a
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774217
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:16:57 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:セッションID：all593p8269net6gvm3aretsb1
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774314
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:18:34 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:セッションID：as4nvsgvv8gk4qr541e3tadfua
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774396
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:19:56 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:セッションID：6b15v3jhb1m831qr64viktfreg
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774454
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:20:54 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:セッションID：g74mhpe1uuh2hs0aftk35qj7ll
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774487
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:21:27 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:セッションID：ersresloccnvu07hltf7r6g7p8
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774513
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:21:53 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:セッションID：jsubt267ilhmmfhhq459h1lau0
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774574
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:22:54 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:セッションID：eg0rm3booris595de0hno0np82
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774619
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:23:39 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:セッションID：91d65m6sdjgvg4tn0144ssj3au
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774652
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:24:12 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:セッションID：1473e3onsu3b9j1si0369g0t55
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774654
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:24:14 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:セッションID：sg2vbn4jfgvr7r2lon48ponqf1
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774655
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:24:15 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:セッションID：0vi22j6cj15689b2r1d3ugefmi
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774656
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:24:16 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:セッションID：0ctfrdlogdb9ilaon48vh2382q
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774668
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:24:28 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:セッションID：53d43g6tffdqplp4rd2qu1qf4d
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574774825
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:論文ID：4
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態で ある。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が 亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻 によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させるこ とが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存 的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA 抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそ れらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細 菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用い て結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻 酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害 や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色 においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投 与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障 害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗 体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではな いかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの 減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[26-Nov-2019 22:27:05 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:セッションID：fatm2hfqtnicrnm2upv2aj3p7q
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574775055
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:論文ID：4
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態で ある。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が 亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻 によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させるこ とが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存 的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA 抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそ れらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細 菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用い て結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻 酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害 や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色 においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投 与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障 害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗 体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではな いかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの 減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[26-Nov-2019 22:30:55 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:セッションID：sljbr5pt2h0qcctbf72vbjobad
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574775100
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:31:40 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:セッションID：gn6hrk8bdhlnemmht7r9kk6798
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574775142
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:32:22 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:セッションID：vif9lmh4nspem1mnm5mgcgbmq6
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574775143
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:現在のページ：1
+[26-Nov-2019 22:32:23 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:セッションID：hsc11an1lblg1muhvnje27gnoc
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574775144
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:論文ID：4
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態で ある。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が 亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻 によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させるこ とが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存 的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA 抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそ れらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細 菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用い て結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻 酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害 や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色 においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投 与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障 害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗 体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではな いかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの 減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[26-Nov-2019 22:32:24 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:セッションID：tsdiijbatb6lhiudjf3i76kbg2
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574775307
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:論文情報を取得します
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:論文ID：4
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:クエリに成功しました
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態で ある。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が 亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻 によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させるこ とが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存 的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA 抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそ れらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細 菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用い て結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻 酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害 や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色 においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投 与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障 害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗 体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではな いかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの 減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[26-Nov-2019 22:35:07 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:セッションID：ks19atl2or5jihhk2a9b430bph
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574853300
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:論文情報を取得します
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:クエリに成功しました
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 LIMIT 12 OFFSET 0
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:クエリに成功しました
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:クエリに成功しました
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:現在のページ：1
+[27-Nov-2019 20:15:00 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:セッションID：p5oibu8un213tltgubjuud8pu4
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574853307
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:論文情報を取得します
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:論文ID：4
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:クエリに成功しました
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態で ある。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が 亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻 によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させるこ とが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存 的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA 抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそ れらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細 菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用い て結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻 酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害 や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色 においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投 与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障 害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗 体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではな いかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの 減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[27-Nov-2019 20:15:07 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:セッションID：9nqn3pv4tn3trne3qvcf4u8n1l
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+)
+
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1574853420
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:論文情報を取得します
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:論文ID：4
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:クエリに成功しました
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態で ある。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が 亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻 によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させるこ とが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存 的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA 抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそ れらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細 菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用い て結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻 酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害 や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色 においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投 与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障 害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗 体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではな いかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの 減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[27-Nov-2019 20:17:00 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

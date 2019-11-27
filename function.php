@@ -210,7 +210,7 @@ function getRonbunList($currentMinNum = 1, $span = 12) {
     if (!$stmt) {
       return false;
     }
-    $sql = 'SELECT * FROM ronbun';
+    $sql = 'SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0';
     $sql .= ' LIMIT ' . $span . ' OFFSET ' . $currentMinNum;
     $data = array();
     debug('SQL:'.$sql);

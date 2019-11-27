@@ -2,7 +2,7 @@
 // 変数
 // ==================================
 $font-color_default: #000;
-$color_corp: #5b98bb;
+$color_corp: #12157b;
 
 $font-family_logo: 'Josefin Sans', sans-serif;
 
@@ -229,6 +229,13 @@ a:hover {
   }
 }
 
+.category-name {
+  background: #28b8f3;
+  border-radius: 3px;
+  padding: $space_s;
+  color: #fff;
+}
+
 // ===========================================
 // サイドバー
 // ===========================================
@@ -379,6 +386,11 @@ a:hover {
 // 論文詳細
 // ========================================
 .article {
+  float: left;
+  width: 820px;
+  margin: $space_3l 0;
+  padding-right: $space_m;
+  box-sizing: border-box;
   &-title {
     text-align: center;
     font-size: $font-size_3l;
