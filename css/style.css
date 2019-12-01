@@ -3,7 +3,8 @@ html, body {
   width: 100%;
   font-size: 16px;
   line-height: 1.6;
-  font-family: "Helvetica Neue", 'Open Sans', Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+  font-family: "Helvetica Neue", 'Open Sans', Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  letter-spacing: 2px; }
 
 a {
   color: #000;
@@ -132,20 +133,24 @@ a:hover {
   .contents-wrapper {
     overflow: hidden;
     margin-top: 10px; }
-  .contents .content {
-    float: left;
-    width: 32%;
-    background: #fff;
-    min-height: 260px;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-right: 2%;
-    margin-top: 10px; }
-    .contents .content-image {
-      width: 100%;
-      height: 178px; }
-  .contents .content:nth-child(3n) {
-    margin-right: 0; }
+    .contents-wrapper .content {
+      float: left;
+      width: 32%;
+      background: #fff;
+      min-height: 260px;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-right: 2%;
+      margin-top: 10px; }
+      .contents-wrapper .content a {
+        display: block; }
+      .contents-wrapper .content p {
+        height: 50px; }
+      .contents-wrapper .content-image {
+        width: 100%;
+        height: 178px; }
+    .contents-wrapper .content:nth-child(3n) {
+      margin-right: 0; }
   .contents .to_new {
     background: #fff;
     padding: 10px 40px;
@@ -312,11 +317,11 @@ a:hover {
       .pagination-list-item a {
         display: block;
         padding: 5px 10px;
-        background: #eee;
+        background: #fff;
         color: #000;
         font-family: 'Montserrat', sans-serif; }
       .pagination-list-item a:hover {
-        background: #333;
+        background: #12157b;
         color: #fff; }
     .pagination-list-item:last-child {
       margin-right: 0; }

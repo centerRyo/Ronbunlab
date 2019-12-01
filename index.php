@@ -46,21 +46,18 @@ require('header.php');
             <?php
               foreach($dbRonbunData['data'] as $key => $val):
             ?>
-              <a href="show.php?p_id=<?php echo $val['id'].'&p='.$currentPageNum; ?>">
                 <div class="content">
-                  <img src="<?php echo sanitize($val['image']); ?>" alt="<?php echo sanitize($val['title']); ?>" class="content-image">
-                  <p><?php echo sanitize($val['title']); ?></p>
-                  <span class="category-name"># <?php echo sanitize($val['category']); ?></span>
+                  <a href="show.php?p_id=<?php echo $val['id'].'&p='.$currentPageNum; ?>">
+                    <img src="<?php echo sanitize($val['image']); ?>" alt="<?php echo sanitize($val['title']); ?>" class="content-image">
+                    <p><?php echo sanitize($val['title']); ?></p>
+                    <span class="category-name"># <?php echo sanitize($val['category']); ?></span>
+                  </a>
                 </div>
-              </a>
             <?php endforeach; ?>
           </div>
 
           <?php pagination($currentPageNum, $dbRonbunData['total_page']); ?>
 
-          <div class="to_new">
-            <a href="#">新着記事一覧</a>
-          </div>
         </section>
 
         <?php
