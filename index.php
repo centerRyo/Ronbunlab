@@ -9,6 +9,7 @@ debugLogStart();
 
 // 画面表示用データ取得
 $currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1;
+$category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
 if (!is_int((int)$currentPageNum)) {
   debug('不正な値が入りました');
   header("Location:index.php");
@@ -16,7 +17,7 @@ if (!is_int((int)$currentPageNum)) {
 
 $listSpan = 12;
 $currentMinNum = ($currentPageNum -1 ) * $listSpan;
-$dbRonbunData = getRonbunList($currentMinNum);
+$dbRonbunData = getRonbunList($currentMinNum, $category);
 $dbCategoryData = getCategory();
 debug('現在のページ：'.$currentPageNum);
 
@@ -50,7 +51,7 @@ require('header.php');
                   <a href="show.php?p_id=<?php echo $val['id'].'&p='.$currentPageNum; ?>">
                     <img src="<?php echo sanitize($val['image']); ?>" alt="<?php echo sanitize($val['title']); ?>" class="content-image">
                     <p><?php echo sanitize($val['title']); ?></p>
-                    <span class="category-name"># <?php echo sanitize($val['category']); ?></span>
+                    <span class="category-name"><?php echo sanitize($val['category']); ?></span>
                   </a>
                 </div>
             <?php endforeach; ?>
