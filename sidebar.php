@@ -1,32 +1,21 @@
 <section class="sidebar">
   <section class="pickup">
     <h2 class="pickup-title">注目記事</h2>
-    <div class="pickup-content">
-      <img src="images/content_example.jpg" alt="">
-      <p>sampletext.sampletext.</p>
-    </div>
-    <div class="pickup-content">
-      <img src="images/content_example.jpg" alt="">
-      <p>sampletext.sampletext.</p>
-    </div>
-    <div class="pickup-content">
-      <img src="images/content_example.jpg" alt="">
-      <p>sampletext.sampletext.</p>
-    </div>
-    <div class="pickup-content">
-      <img src="images/content_example.jpg" alt="">
-      <p>sampletext.sampletext.</p>
-    </div>
+    <?php foreach($dbRonbunData['data'] as $key => $val): ?>
+      <div class="pickup-content">
+        <img src="<?php echo sanitize($val['image']); ?>" alt="<?php echo sanitize($val['title']); ?>">
+        <p style="width:200px"><?php echo sanitize($val['title']); ?></p>
+      </div>
+    <?php endforeach; ?>
   </section>
 
   <section class="category">
     <ul class="category-wrapper">
-      <li class="category-item"><a href="">科学</a></li>
-      <li class="category-item"><a href="">スポーツ</a></li>
-      <li class="category-item"><a href="">ビジネス</a></li>
-      <li class="category-item"><a href="">心理学</a></li>
-      <li class="category-item"><a href="">医学</a></li>
-      <li class="category-item"><a href="">法律</a></li>
+      <?php
+        foreach ($dbCategoryData as $key => $val):
+      ?>
+        <li class="category-item"><a href="index.php?c_id=<?php echo $val['id'] ?>"><?php echo $val['name']; ?></a></li>
+      <?php endforeach; ?>
     </ul>
   </section>
 </section>
