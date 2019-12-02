@@ -212,6 +212,7 @@ a:hover {
       box-sizing: border-box;
       margin-right: 2%;
       margin-top: $space_m;
+      transition: all .3s;
       a {
         display: block;
       }
@@ -225,6 +226,11 @@ a:hover {
     }
     .content:nth-child(3n) {
       margin-right: 0;
+    }
+    .content:hover {
+      transition: all .3s;
+      transform: translateY(-3px);
+      box-shadow: 0 0 10px 0 #ddd;
     }
   }
   .to_new {
