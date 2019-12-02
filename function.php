@@ -198,11 +198,12 @@ function getRonbun($u_id, $p_id) {
   }
 }
 
-function getRonbunList($currentMinNum = 1, $span = 12) {
+function getRonbunList($currentMinNum = 1, $category, $span = 12) {
   debug('論文情報を取得します');
   try {
     $dbh = dbConnect();
     $sql = 'SELECT id FROM ronbun';
+    if (!empty($category)) $sql .= 'WHERE category_id = ' . $category;
     $data = array();
     $stmt = queryPost($dbh, $sql, $data);
     $rst['total'] = $stmt->rowCount(); // 総レコード数
@@ -211,6 +212,7 @@ function getRonbunList($currentMinNum = 1, $span = 12) {
       return false;
     }
     $sql = 'SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC';
+    if (!empty($category)) $sql .= 'WHERE category_id = ' . $category;
     $sql .= ' LIMIT ' . $span . ' OFFSET ' . $currentMinNum;
     $data = array();
     debug('SQL:'.$sql);
@@ -391,4 +393,19 @@ function pagination($currentPageNum, $totalPageNum, $link = '', $pageColNum = 5)
     }
     echo '  </ul>';
   echo '</div>';
+}
+
+// GETパラメータ付与
+// $del_key : 付与から取り除きたいGETパラメーターのキー
+function appendGetParam($arr_del_key = array()) {
+  if (!empty($_GET)) {
+    $str = '?';
+    foreach ($_GET as $key => $val) {
+      if (!in_array($key, $arr_del_key, true)) { // 取り除きたいパラメータじゃない場合にURLにくっつけるパラメータを生成
+        $str .= $key.'='.$val.'&';
+      }
+    }
+    $str = mb_strlen($str, 0, -1, "UTF-8");
+    return $str;
+  }
 }
