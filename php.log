@@ -25163,3 +25163,1643 @@ This thesis is created because I want to ensure that I can upload the thesis whi
 )
 
 [01-Dec-2019 19:24:38 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:セッションID：lm7luoglsuo19h14093f6t1lqc
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575196313
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 19:31:53 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:セッションID：kfede70e6jfo0c5e2f2q9ffvtk
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575196336
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:論文ID：4
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態である。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させることが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそれらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用いて結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではないかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[01-Dec-2019 19:32:16 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:セッションID：6dhekrrgtqg7guvq4qkhsnepek
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575196511
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 19:35:11 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:セッションID：gib1d21piaqpt8c7kitpi92n8a
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575196514
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:論文ID：6
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 6
+    [title] => 投稿順序テスト
+    [abstract] => この論文は投稿順序を新しい順で取得できるかどうかを確かめるために作成されました。
+    [detail] => This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+    [image] => uploads/5ee55c2658f246b157343684db212e5448f5dd04.jpeg
+    [user_id] => 1
+    [created_date] => 2019-12-01 16:01:24
+    [updated_date] => 2019-12-01 16:01:24
+    [category] => 心理学
+)
+
+[01-Dec-2019 19:35:14 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:セッションID：ve5se09il2us6vgbaa58thns9d
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198604
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:10:04 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:セッションID：51i00j3u0alsov1vhd0b2d9m4j
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198634
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:10:34 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:セッションID：3s5tb9hqd9nvh5rna998gfkgd6
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198670
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:11:10 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:セッションID：vt27ojjpegp3e9h405qfaa36bf
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198750
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:12:30 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:セッションID：r9jvuaveub8nm9j8est8tbkrj2
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198765
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:12:45 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:セッションID：kkf7qnmq6vpu9s3jmr1avjfeg4
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198803
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:13:23 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:セッションID：rodrj0kf59hcb5sinhe789ircd
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198861
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:14:21 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:14:21 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/ronbunlab/function.php:12) in /Applications/MAMP/htdocs/ronbunlab/function.php on line 17
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:セッションID：ms5m18v4umao2n9i94scpitvgi
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575198919
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:15:19 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:セッションID：8jsaurtvnholj0i7o214clru1o
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575199047
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:17:27 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:セッションID：1a4r4v9c8r3tj7suiodapp2phg
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200556
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:42:36 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:42:36 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/ronbunlab/function.php:12) in /Applications/MAMP/htdocs/ronbunlab/function.php on line 17
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:セッションID：11bnhb67b4m5t71mr0kjeltvje
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200568
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:42:48 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:42:48 Asia/Tokyo] PHP Fatal error:  Cannot redeclare debug() (previously declared in /Applications/MAMP/htdocs/ronbunlab/function.php:12) in /Applications/MAMP/htdocs/ronbunlab/function.php on line 17
+[01-Dec-2019 20:47:30 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:30 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:47:30 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:30 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:47:30 Asia/Tokyo] デバッグ:セッションID：vjrrr6mv1s41cvk6r1uiv9qu1c
+[01-Dec-2019 20:47:30 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:47:30 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200850
+[01-Dec-2019 20:47:30 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getRonbunList(), 1 passed in /Applications/MAMP/htdocs/ronbunlab/index.php on line 20 and at least 2 expected in /Applications/MAMP/htdocs/ronbunlab/function.php:201
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 201
+[01-Dec-2019 20:47:39 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:39 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:47:39 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:39 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:47:39 Asia/Tokyo] デバッグ:セッションID：d7uao5h7bbb458ip44l4v8r34t
+[01-Dec-2019 20:47:39 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:47:39 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200859
+[01-Dec-2019 20:47:39 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getRonbunList(), 1 passed in /Applications/MAMP/htdocs/ronbunlab/index.php on line 20 and at least 2 expected in /Applications/MAMP/htdocs/ronbunlab/function.php:201
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 201
+[01-Dec-2019 20:47:42 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:42 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:47:42 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:42 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:47:42 Asia/Tokyo] デバッグ:セッションID：a9utop7ocolf2jtjv9j64dpajj
+[01-Dec-2019 20:47:42 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:47:42 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200862
+[01-Dec-2019 20:47:42 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function getRonbunList(), 1 passed in /Applications/MAMP/htdocs/ronbunlab/index.php on line 20 and at least 2 expected in /Applications/MAMP/htdocs/ronbunlab/function.php:201
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0)
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 201
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:セッションID：3cunvjevb7qmsq0r2nrcdpbrda
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200869
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:47:49 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:セッションID：gjp3vmug4660uupkh3uci4osj9
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200886
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:48:06 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:セッションID：nub6rrhu5ge9leo9eh0ifdnbcc
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575200922
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:48:42 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:セッションID：4en4tme32qj3ftjtdhqcv90ec2
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201124
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:52:04 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:セッションID：r2k0f4pi77aul3ei40bonegi74
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201129
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:52:09 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:52:09 Asia/Tokyo] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 36
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:セッションID：3gj7pgh7b8l8der18l5lb5ur69
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201216
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:53:36 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:53:36 Asia/Tokyo] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 36
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:セッションID：4ovqlqnctqj9mkbo8l2grvs75v
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201278
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:54:38 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:54:38 Asia/Tokyo] PHP Parse error:  syntax error, unexpected end of file in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 36
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:セッションID：o9cru35ns8kdutlstoaehrcu1t
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201310
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:55:10 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:55:10 Asia/Tokyo] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 28
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:セッションID：p4152sjec57cuhf24rlpc7mkdt
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201339
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:55:39 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:セッションID：ugctfvg4h55t1c3c35odnj4bkq
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201346
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:55:46 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1 in /Applications/MAMP/htdocs/ronbunlab/function.php on line 169
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:クエリに失敗しました
+[01-Dec-2019 20:55:46 Asia/Tokyo] デバッグ:失敗したSQL:PDOStatement Object
+(
+    [queryString] => SELECT id FROM ronbunWHERE category_id = 1
+)
+
+[01-Dec-2019 20:55:46 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/ronbunlab/function.php:209
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0, '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 209
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:セッションID：l1ivd8rujr14u4c1h5pvlffgrc
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201347
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:55:47 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:セッションID：ek9hj4ubtgrv0m2tmr8qtk4ikp
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201349
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:55:49 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1 in /Applications/MAMP/htdocs/ronbunlab/function.php on line 169
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:クエリに失敗しました
+[01-Dec-2019 20:55:49 Asia/Tokyo] デバッグ:失敗したSQL:PDOStatement Object
+(
+    [queryString] => SELECT id FROM ronbunWHERE category_id = 1
+)
+
+[01-Dec-2019 20:55:49 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/ronbunlab/function.php:209
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0, '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 209
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:セッションID：bnu4909eusaca57k52m97mqa4o
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201350
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:55:50 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:セッションID：ct7omoe9gs8687u37ba4k2ddb4
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201375
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:56:15 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:セッションID：g74s62qh7akbd5bl3p5o3r9ihb
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201387
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:56:27 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:セッションID：r3eo08dbjsg58uitmr8rbc9btd
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201511
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:58:31 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1 in /Applications/MAMP/htdocs/ronbunlab/function.php on line 169
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:クエリに失敗しました
+[01-Dec-2019 20:58:31 Asia/Tokyo] デバッグ:失敗したSQL:PDOStatement Object
+(
+    [queryString] => SELECT id FROM ronbunWHERE category_id = 1
+)
+
+[01-Dec-2019 20:58:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/ronbunlab/function.php:209
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0, '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 209
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:セッションID：n2nejf8f1cd7k2kan3nts2pr95
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201513
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:58:33 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:セッションID：jusshh3mqdo31mibvglm3d8moo
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201520
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:58:40 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1 in /Applications/MAMP/htdocs/ronbunlab/function.php on line 169
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:クエリに失敗しました
+[01-Dec-2019 20:58:40 Asia/Tokyo] デバッグ:失敗したSQL:PDOStatement Object
+(
+    [queryString] => SELECT id FROM ronbunWHERE category_id = 1
+)
+
+[01-Dec-2019 20:58:40 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/ronbunlab/function.php:209
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0, '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 209
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:セッションID：9me7c8s0u9u4vg1m4ijfqogel6
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201522
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:58:42 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:セッションID：u7533pq1isdupboaildd4la2fl
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201585
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:論文ID：6
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 6
+    [title] => 投稿順序テスト
+    [abstract] => この論文は投稿順序を新しい順で取得できるかどうかを確かめるために作成されました。
+    [detail] => This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+This thesis is created because I want to ensure that I can upload the thesis which upload is new or not.
+    [image] => uploads/5ee55c2658f246b157343684db212e5448f5dd04.jpeg
+    [user_id] => 1
+    [created_date] => 2019-12-01 16:01:24
+    [updated_date] => 2019-12-01 16:01:24
+    [category] => 心理学
+)
+
+[01-Dec-2019 20:59:45 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:59:45 Asia/Tokyo] PHP Notice:  Undefined variable: dbCategoryData in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 25
+[01-Dec-2019 20:59:45 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 25
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:セッションID：0aqva3s8bub8rk44oruek752cc
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201588
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:59:48 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:セッションID：06dm41ac26r1l3i67sv3bb8u0k
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201590
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:論文ID：5
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 5
+    [title] => サンプルテスト
+    [abstract] => サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキ
+    [detail] => サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+
+
+
+サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+
+
+
+
+
+サンプルテキスト
+
+サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+    [image] => uploads/9ec90297e3c1877b2c37a0ca79b71c445f318caa.jpeg
+    [user_id] => 1
+    [created_date] => 2019-12-01 15:58:47
+    [updated_date] => 2019-12-01 15:58:47
+    [category] => ビジネス
+)
+
+[01-Dec-2019 20:59:50 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:59:50 Asia/Tokyo] PHP Notice:  Undefined variable: dbCategoryData in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 25
+[01-Dec-2019 20:59:50 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 25
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:セッションID：4jhpv65jv3v2qrdq95r07nlqjj
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201592
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:59:52 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:セッションID：kva0dll7qu5o0fdbik3i0agps9
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201596
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:59:56 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 3' at line 1 in /Applications/MAMP/htdocs/ronbunlab/function.php on line 169
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:クエリに失敗しました
+[01-Dec-2019 20:59:56 Asia/Tokyo] デバッグ:失敗したSQL:PDOStatement Object
+(
+    [queryString] => SELECT id FROM ronbunWHERE category_id = 3
+)
+
+[01-Dec-2019 20:59:56 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/ronbunlab/function.php:209
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0, '3')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 209
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:セッションID：28gjab70sv0mcum3vq5vkq5mev
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575201597
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 20:59:57 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:セッションID：41r5nqphjeejod6dj46a1l5e04
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575202195
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 21:09:55 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:セッションID：pmijch846thifpfa89qcq6bqmj
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575202197
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 21:09:57 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1 in /Applications/MAMP/htdocs/ronbunlab/function.php on line 169
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:クエリに失敗しました
+[01-Dec-2019 21:09:57 Asia/Tokyo] デバッグ:失敗したSQL:PDOStatement Object
+(
+    [queryString] => SELECT id FROM ronbunWHERE category_id = 1
+)
+
+[01-Dec-2019 21:09:57 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/ronbunlab/function.php:209
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0, '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 209
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:セッションID：arbqv4033ff9if388jrbf6v9qb
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575202198
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 21:09:58 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:セッションID：92n0rqe1cm64d1i8gt76hrha00
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575202220
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 21:10:20 Asia/Tokyo] PHP Warning:  PDOStatement::execute(): SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 1' at line 1 in /Applications/MAMP/htdocs/ronbunlab/function.php on line 169
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:クエリに失敗しました
+[01-Dec-2019 21:10:20 Asia/Tokyo] デバッグ:失敗したSQL:PDOStatement Object
+(
+    [queryString] => SELECT id FROM ronbunWHERE category_id = 1
+)
+
+[01-Dec-2019 21:10:20 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/ronbunlab/function.php:209
+Stack trace:
+#0 /Applications/MAMP/htdocs/ronbunlab/index.php(20): getRonbunList(0, '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/ronbunlab/function.php on line 209
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:セッションID：2iueduuf8ce4p5p6ou2aaj8oks
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575202223
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 21:10:23 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:セッションID：c8dk33d9ekriek6b2kmcpg1h56
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575205530
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:05:30 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:セッションID：hq1i6cfitf2ui12niqr72j2ii8
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575205919
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:11:59 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:セッションID：h8iib51a83u6ve8ttv94eef0nl
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575205948
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:12:28 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:セッションID：79vi0ukjgs9nml120g9illr6o6
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206241
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:17:21 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:セッションID：6aphts61j5e7og3laq9eri3n1c
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206407
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:20:07 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:セッションID：peob98pkc2pthussq141q6abbd
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206478
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:21:18 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:セッションID：8nc0ngq4v8q399km2dv84idj0b
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206487
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:21:27 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:セッションID：9k93c0q4p3mbm56f9idcijhf71
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206568
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:22:48 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:セッションID：mu4ugkr5ho2faj7f1nom4rju5c
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206586
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:23:06 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:セッションID：nopcpd1e86i81j13rrumgl43cf
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206595
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:23:15 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:セッションID：bpvq81j9nm30d1c2ahgpt051s3
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206605
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:23:25 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:セッションID：ntsr8m4outg4j1qca8s7fc82un
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575206618
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:論文情報を取得します
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:クエリに成功しました
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:現在のページ：1
+[01-Dec-2019 22:23:38 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:セッションID：6e00i2cf3kokc61urpgb9jd6k1
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575287544
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:現在のページ：1
+[02-Dec-2019 20:52:24 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:セッションID：3guh6c743tvd9q80tt3atrv1m5
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575287566
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:論文ID：4
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:取得したDBデータ：Array
+(
+    [id] => 4
+    [title] => 抗体で肝障害が軽減されることが判明
+    [abstract] => 肝障害はアルコールや薬物などによって肝細胞が障害を起こし、進行すると肝硬変に至ることがある。
+悪玉菌のみに結合して悪玉菌の増殖を抑える抗体を投与すると腸内細菌叢が善玉菌優位に変化して肝障害が軽減されることがわかった。
+    [detail] => 【緒言】
+ 肝機能障害は、肝炎ウイルス、アルコール、薬物などにより肝細胞が障害される病態である。慢性的な肝細胞障害により肝線維症が進行し肝硬変に至る。肝硬変では、門脈圧が亢進し、消化管の機能障害から腸内細菌の異常増殖が起こったり、腸管粘膜バリアの破綻によるバクテリアルトランスロケーションが起こったりし、肝障害をさらに増悪させることが知られている[1]。
+ 胆管結紮(bile duct ligation;BDL)は、胆汁うっ滞による肝細胞障害、肝線維化を起こす実験的肝障害モデルの一つである[2]。  一方、腸管免疫系の中で主要な要素の1つがIgA抗体である。腸管内のIgAはT細胞依存的に産生されるだけでなく腸管粘膜固有層に散在する抗体産生細胞からも産生される。IgA抗体は病原体を排除するだけでなく、腸内細菌から粘膜を守りながらもそれらと共生する といった役割をもつ。中でもW27IgA抗体は大腸菌などの悪玉菌に強く結合することでそれらの増殖を抑え、腸内細菌叢に変化をもたらすことが報告されている[3]。  そこで、本研究ではBDLによる胆汁うっ滞性肝障害に対してW27IgA抗体投与が腸内細菌叢の調節を介して肝障害を軽減させうるかを検討した。
+
+【実験方法】  実験には8-18週齢の♂C57/B6を使用した。全身麻酔下で開腹し、杉田クリップを用いて結紮した。胆管結紮後、週に2回W27IgA抗体を経口投与し、胆管結紮から2週間後に麻酔下においてsacrificeを行い、血液、肝組織を採取した。胆管結紮前、実験開始14日目に 糞便を採取した。コントロール群としてW27IgA抗体の代わりに食塩水を与えた。肝障害や黄疸の指標として血清からALT、T-Bilの測定を行い、肝組織切片のHE染色とSirius Red 染色を行った。また16S rRNAシークエンスにより腸内細菌叢の解析を行った。
+
+【結果】
+ ALT、T-Bilそれぞれの値はIgA抗体投与マウスにおいていずれも減少した。Sirius Red染色においてはIgA投与群で染色面積の減少が見られた。また、腸内細菌叢の解析においてIgA投与群でビフィズス菌科の維持が見られた。
+
+【考察】
+ ALT、T-Bil、Sirius Red染色領域の面積比率の結果から、W27IgA抗体によって肝障害、肝線維化は軽減した。しかしALT、T-Bilの値がshamより大きいことからW27IgA抗体のみでは不十分で、胆汁の再還流が肝障害の完治には必要であるのではないかと考えた。 また、W27IgA抗体投与による腸内細菌叢の変化により肝障害が軽減したと考えることができ る。中でもビフィズス菌科が維持されていたことからビフィズス菌科が重要な腸内細菌ではないかと考えられる。しかし先行研究とは異なり、Lachnospiraceaeの増加やPrevotellaceaeの減少といった効果は見られなかった。 
+    [image] => uploads/4e7dfa7d54af5cb23bb9dd29c06c6facf6d5103f.png
+    [user_id] => 1
+    [created_date] => 2019-11-20 22:20:22
+    [updated_date] => 2019-11-20 22:20:22
+    [category] => 医学
+)
+
+[02-Dec-2019 20:52:46 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 20:52:46 Asia/Tokyo] PHP Notice:  Undefined variable: dbCategoryData in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 25
+[02-Dec-2019 20:52:46 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/ronbunlab/sidebar.php on line 25
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:セッションID：8db9i3tfnl2g5e1riacg0h6upl
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575287567
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:現在のページ：1
+[02-Dec-2019 20:52:47 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:セッションID：mrpb7pc3v4m5lufna166ve1fph
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575287568
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:現在のページ：1
+[02-Dec-2019 20:52:48 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:セッションID：rtl3qbl7c7ie8m3ll75louv3ec
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575296588
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:現在のページ：1
+[02-Dec-2019 23:23:08 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:セッションID：9dq6mgl9shct63egtcq703pufi
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575296604
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:現在のページ：1
+[02-Dec-2019 23:23:24 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:セッションID：cq2a92n9o3ohi39mm4duupnqk7
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575296703
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:現在のページ：1
+[02-Dec-2019 23:25:03 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:　論文投稿ページ　
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:「「「「「「「「「「「「「「「「「「「「「「
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:セッションID：eq46hoahfkg5vlhpqgvs396mfg
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1575195827
+    [login_limit] => 2592000
+    [user_id] => 1
+    [msg_success] => 入力必須です
+)
+
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:現在日時タイムスタンプ：1575296758
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:論文情報を取得します
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:SQL:SELECT r.id, r.title, r.abstract, r.detail, r.image, r.created_date, r.updated_date, c.name AS category FROM ronbun AS r LEFT JOIN category AS c ON r.category_id = c.id WHERE r.delete_flg = 0 AND c.delete_flg = 0 ORDER BY r.updated_date DESC LIMIT 12 OFFSET 0
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:カテゴリ情報を取得します
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:クエリに成功しました
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:現在のページ：1
+[02-Dec-2019 23:25:58 Asia/Tokyo] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

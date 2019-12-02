@@ -141,7 +141,8 @@ a:hover {
       padding: 10px;
       box-sizing: border-box;
       margin-right: 2%;
-      margin-top: 10px; }
+      margin-top: 10px;
+      transition: all .3s; }
       .contents-wrapper .content a {
         display: block; }
       .contents-wrapper .content p {
@@ -151,6 +152,10 @@ a:hover {
         height: 178px; }
     .contents-wrapper .content:nth-child(3n) {
       margin-right: 0; }
+    .contents-wrapper .content:hover {
+      transition: all .3s;
+      transform: translateY(-3px);
+      box-shadow: 0 0 10px 0 #ddd; }
   .contents .to_new {
     background: #fff;
     padding: 10px 40px;
