@@ -10,6 +10,13 @@ debugLogStart();
 // 論文IDのGETパラメータを取得
 $p_id = (!empty($_GET['p_id'])) ? $_GET['p_id'] : '';
 $viewData = getRonbunOne($p_id);
+
+// sidebar用に必要なデータ
+$category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
+$currentMinNum = ($currentPageNum -1 ) * $listSpan;
+$dbRonbunData = getRonbunList($currentMinNum, $category);
+$dbCategoryData = getCategory();
+
 if (empty($viewData)) {
   error_log('エラー発生：指定ページに不正な値が入りました');
   header("Locataion:index.php");
