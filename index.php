@@ -3,7 +3,7 @@
 require('function.php');
 
 debug('「「「「「「「「「「「「「「「「「「「「「「');
-debug('　論文投稿ページ　');
+debug('　論文一覧ページ　');
 debug('「「「「「「「「「「「「「「「「「「「「「「');
 debugLogStart();
 
@@ -19,6 +19,10 @@ $listSpan = 12;
 $currentMinNum = ($currentPageNum -1 ) * $listSpan;
 $dbRonbunData = getRonbunList($currentMinNum, $category);
 $dbCategoryData = getCategory();
+
+// sidebar用関数
+$dbAttentionRonbunData = getAttentionRonbun();
+
 debug('現在のページ：'.$currentPageNum);
 
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
