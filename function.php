@@ -248,6 +248,25 @@ function getRonbunOne($p_id) {
   }
 }
 
+function getAttentionRonbun() {
+  debug('注目論文情報を取得します');
+  try {
+    $dbh = dbConnect();
+    $sql = 'SELECT * FROM ronbun ORDER BY updated_date DESC LIMIT 4';
+    $data = array();
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if ($stmt) {
+      $rst['data'] = $stmt->fetchAll();
+      return $rst;
+    } else {
+      return false;
+    }
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+
 function getCategory() {
   debug('カテゴリ情報を取得します');
   try {
