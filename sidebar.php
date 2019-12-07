@@ -1,7 +1,7 @@
 <section class="sidebar">
   <section class="pickup">
     <h2 class="pickup-title">注目記事</h2>
-    <?php foreach($dbRonbunData['data'] as $key => $val): ?>
+    <?php foreach($dbAttentionRonbunData['data'] as $key => $val): ?>
       <a href="show.php?p_id=<?php echo $val['id']; ?>">
       <div class="pickup-content">
           <img src="<?php echo sanitize($val['image']); ?>" alt="<?php echo sanitize($val['title']); ?>">
