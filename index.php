@@ -17,7 +17,7 @@ if (!is_int((int)$currentPageNum)) {
 
 $listSpan = 12;
 $currentMinNum = ($currentPageNum -1 ) * $listSpan;
-$dbRonbunData = getRonbunList($currentMinNum, $category);
+$dbRonbunData = getRonbunList($category, $currentMinNum);
 $dbCategoryData = getCategory();
 
 // sidebar用関数
@@ -53,7 +53,7 @@ require('header.php');
             ?>
                 <div class="content">
                   <a href="show.php?p_id=<?php echo $val['id'].'&p='.$currentPageNum; ?>">
-                    <img src="<?php echo sanitize($val['image']); ?>" alt="<?php echo sanitize($val['title']); ?>" class="content-image">
+                    <img src="<?php echo showImg(sanitize($val['image'])); ?>" alt="<?php echo sanitize($val['title']); ?>" class="content-image">
                     <p><?php echo sanitize($val['title']); ?></p>
                     <span class="category-name"><?php echo sanitize($val['category']); ?></span>
                   </a>
