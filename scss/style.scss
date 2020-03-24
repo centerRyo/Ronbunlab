@@ -431,6 +431,7 @@ a:hover {
 .pagination {
   position: relative;
   margin-top: $space_m;
+  overflow: hidden;
   &-list {
     position: relative;
     left: 50%;
