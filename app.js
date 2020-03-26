@@ -6,7 +6,6 @@ let $slideContainer = $('.slider-container');
 let slideItemNum = $('.slider-item').length;
 let slideItemWidth = $('.slider-item').innerWidth();
 let slideContainerWidth = slideItemNum * slideItemWidth;
-console.log(slideItemWidth);
 const DURATION = 500;
 
 $slideContainer.attr('style', 'width:' + slideContainerWidth + 'px');
@@ -30,7 +29,7 @@ $('.js-slider-next').on('click', function() {
 // =======================================
 let $ftr = $('.footer');
 if (window.innerHeight > $ftr.offset().top + $ftr.outerHeight()) {
-  $ftr.attr({'style': 'postion:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) + 'px;'});
+  $ftr.attr({'style': 'position:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) + 'px;'});
 }
 
 // =======================================
