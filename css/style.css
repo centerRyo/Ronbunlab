@@ -80,19 +80,6 @@ a:hover {
         box-sizing: border-box; }
     .container .form label.err input {
       background: #f7dcd9; }
-    .container .form .btn-container {
-      overflow: hidden; }
-      .container .form .btn-container .btn {
-        float: right;
-        font-size: 20px;
-        color: #fff;
-        border: none;
-        background: #12157b;
-        border-radius: 3px;
-        padding: 10px;
-        margin-top: 15px; }
-      .container .form .btn-container .btn:hover {
-        cursor: pointer; }
     .container .form .pass_remind {
       text-decoration: underline; }
     .container .form .pass_remind:hover {
@@ -270,19 +257,6 @@ a:hover {
     font-size: 14px;
     margin-left: 5px;
     vertical-align: top; }
-  .post-container .form-container .btn-container {
-    overflow: hidden; }
-    .post-container .form-container .btn-container .btn {
-      float: right;
-      font-size: 20px;
-      color: #fff;
-      border: none;
-      background: #12157b;
-      border-radius: 3px;
-      padding: 10px;
-      margin-top: 15px; }
-    .post-container .form-container .btn-container .btn:hover {
-      cursor: pointer; }
 
 .article {
   float: left;
@@ -295,7 +269,10 @@ a:hover {
     font-size: 36px; }
   .article-image {
     margin-top: 20px;
-    text-align: center; }
+    text-align: center;
+    width: 100%; }
+    .article-image img {
+      width: 100%; }
   .article-abstract {
     margin-top: 20px; }
   .article-detail {
@@ -307,7 +284,8 @@ a:hover {
 
 .pagination {
   position: relative;
-  margin-top: 10px; }
+  margin-top: 10px;
+  overflow: hidden; }
   .pagination-list {
     position: relative;
     left: 50%;
@@ -338,3 +316,19 @@ a:hover {
   text-align: center;
   font-size: 12px;
   padding: 5px; }
+
+.btn-container {
+  overflow: hidden;
+  text-align: center; }
+  .btn-container .btn {
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    background: #12157b;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 15px; }
+  .btn-container .btn-right {
+    float: right; }
+  .btn-container .btn:hover {
+    cursor: pointer; }

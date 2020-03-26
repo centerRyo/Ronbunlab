@@ -130,22 +130,6 @@ a:hover {
         background: #f7dcd9;
       }
     }
-    .btn-container {
-      overflow: hidden;
-      .btn {
-        float: right;
-        font-size: $font-size_l;
-        color: #fff;
-        border: none;
-        background: $color_corp;
-        border-radius: 3px;
-        padding: $space_m;
-        margin-top: $space_l;
-      }
-      .btn:hover {
-        cursor: pointer;
-      }
-    }
     .pass_remind {
       text-decoration: underline;
     }
@@ -376,22 +360,6 @@ a:hover {
         vertical-align: top;
       }
     }
-    .btn-container {
-      overflow: hidden;
-      .btn {
-        float: right;
-        font-size: $font-size_l;
-        color: #fff;
-        border: none;
-        background: $color_corp;
-        border-radius: 3px;
-        padding: $space_m;
-        margin-top: $space_l;
-      }
-      .btn:hover {
-        cursor: pointer;
-      }
-    }
   }
 }
 
@@ -411,6 +379,10 @@ a:hover {
   &-image {
     margin-top: $space_xl;
     text-align: center;
+    width: 100%;
+    img {
+      width: 100%;
+    }
   }
   &-abstract {
     margin-top: $space_xl;
@@ -474,4 +446,27 @@ a:hover {
   text-align: center;
   font-size: $font-size_s;
   padding: $space_s;
+}
+
+// ========================================
+// ボタン
+// ========================================
+.btn-container {
+  overflow: hidden;
+  text-align: center;
+  .btn {
+    font-size: $font-size_l;
+    color: #fff;
+    border: none;
+    background: $color_corp;
+    border-radius: 3px;
+    padding: $space_m;
+    margin-top: $space_l;
+  }
+  .btn-right {
+    float: right;
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
 }
