@@ -98,7 +98,7 @@ require('header.php');
           <?php if(!empty($err_msg['pass_re'])) echo $err_msg['pass_re']; ?>
         </div>
         <div class="btn-container">
-          <input type="submit" class="btn btn-submit" value="登録する">
+          <input type="submit" class="btn btn-right" value="登録する">
         </div>
       </form>
     </section>

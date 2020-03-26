@@ -109,7 +109,7 @@ require('header.php');
         </div>
           <input type="checkbox" name="pass_save">次回から自動でログインする
         <div class="btn-container">
-          <input type="submit" class="btn btn-submit" value="ログイン">
+          <input type="submit" class="btn btn-right" value="ログイン">
         </div>
         <a class="pass_remind" href="">パスワードをお忘れの方はこちら</a>
       </form>
