@@ -16,11 +16,12 @@ a:hover {
 .container-wrapper {
   background: #f6f5f5;
   width: 100%; }
-  .container-wrapper .site-width {
-    width: 1100px;
-    margin: 0 auto;
-    padding: 40px;
-    overflow: hidden; }
+
+.site-width {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 40px;
+  overflow: hidden; }
 
 .area-msg {
   color: #f10b0b;
