@@ -52,7 +52,7 @@ require('header.php');
               foreach($dbRonbunData['data'] as $key => $val):
             ?>
                 <div class="content">
-                  <a href="show.php?p_id=<?php echo $val['id'].'&p='.$currentPageNum; ?>">
+                  <a href="show.php?r_id=<?php echo $val['id'].'&p='.$currentPageNum; ?>">
                     <img src="<?php echo showImg(sanitize($val['image'])); ?>" alt="<?php echo sanitize($val['title']); ?>" class="content-image">
                     <p><?php echo sanitize($val['title']); ?></p>
                     <span class="category-name"><?php echo sanitize($val['category']); ?></span>
