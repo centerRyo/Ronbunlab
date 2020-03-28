@@ -144,6 +144,7 @@ function validSelect($str, $key) {
 // =============================================
 // DB接続関数
 function dbConnect() {
+  // 開発環境用
   $dsn = 'mysql:dbname=ronbunlab;host=localhost;charset=utf8';
   $user = 'root';
   $password = 'root';
