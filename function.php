@@ -334,8 +334,8 @@ function getFavorite($u_id) {
   debug('お気に入り情報を取得します');
   debug('ユーザー情報：'.$u_id);
   try {
-    $dbh =dbConnect();
-    $sql = 'SELECT * FROM favorite WHERE user_id = :u_id AND delete_flg = 0';
+    $dbh = dbConnect();
+    $sql = 'SELECT * FROM favorite AS f INNER JOIN ronbun AS r ON f.ronbun_id = r.id WHERE f.user_id = :u_id AND f.delete_flg = 0';
     $data = array(':u_id' => $u_id);
     $stmt = queryPost($dbh, $sql, $data);
 
