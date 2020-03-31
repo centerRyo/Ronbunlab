@@ -291,6 +291,65 @@ function getCategory() {
   }
 }
 
+function getUser($u_id) {
+  debug('ユーザー情報を取得します');
+  try {
+    $dbh = dbConnect();
+    $sql = 'SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
+    $data = array(':u_id' => $u_id);
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if ($stmt) {
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    } else {
+      return false;
+    }
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+    $err_msg['common'] = MSG07;
+  }
+}
+
+function getMyRonbun($u_id) {
+  debug('自分の論文情報を取得します');
+  debug('ユーザー情報：'.$u_id);
+  try {
+    $dbh = dbConnect();
+    $sql = 'SELECT * FROM ronbun WHERE user_id = :u_id AND delete_flg = 0 ORDER BY created_date DESC LIMIT 9';
+    $data = array(':u_id' => $u_id);
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if ($stmt) {
+      return $stmt->fetchAll();
+    } else {
+      return false;
+    }
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+    $err_msg['common'] = MSG07;
+  }
+}
+
+function getFavorite($u_id) {
+  debug('お気に入り情報を取得します');
+  debug('ユーザー情報：'.$u_id);
+  try {
+    $dbh = dbConnect();
+    $sql = 'SELECT * FROM favorite AS f INNER JOIN ronbun AS r ON f.ronbun_id = r.id WHERE f.user_id = :u_id AND f.delete_flg = 0';
+    $data = array(':u_id' => $u_id);
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if ($stmt) {
+      return $stmt->fetchAll();
+    } else {
+      return false;
+    }
+  } catch (Exception $e) {
+    erro_log('エラー発生：'.$e->getMessage());
+    $err_msg['common'] = MSG07;
+  }
+}
+
 // =================================================
 // その他
 // =================================================

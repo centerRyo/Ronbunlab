@@ -3,12 +3,12 @@
 require('function.php');
 
 debug('「「「「「「「「「「「「「「「「「「「「「「');
-debug('　論文投稿ページ　');
+debug('　論文詳細ページ　');
 debug('「「「「「「「「「「「「「「「「「「「「「「');
 debugLogStart();
 
 // 論文IDのGETパラメータを取得
-$p_id = (!empty($_GET['p_id'])) ? $_GET['p_id'] : '';
+$p_id = (!empty($_GET['r_id'])) ? $_GET['r_id'] : '';
 $viewData = getRonbunOne($p_id);
 
 // sidebar用データ

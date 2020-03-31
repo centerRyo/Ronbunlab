@@ -58,6 +58,11 @@ a:hover {
   padding-bottom: $space_l;
 }
 
+.contents-container {
+  float: left;
+  width: 820px;
+}
+
 // ===================================
 // ヘッダー
 // ===================================
@@ -89,12 +94,21 @@ a:hover {
       color: #fff;
       padding: 10px 15px;
       font-weight: bold;
-      font-size: $font-size_l;
+      font-size: $font-size_default;
     }
     a:hover {
       text-decoration: underline;
     }
   }
+}
+
+// ========================================
+// プロフィール
+// ========================================
+.profile-container {
+  width: 100%;
+  background: linear-gradient(#ebefef, #545556);
+  margin-top: $space_xl;
 }
 
 // ========================================
@@ -235,7 +249,7 @@ a:hover {
 }
 
 // ===========================================
-// サイドバー
+// サイドバー(一覧)
 // ===========================================
 .sidebar {
   float: right;
@@ -279,6 +293,26 @@ a:hover {
 }
 
 // ========================================
+// サイドバー(マイページ)
+// ========================================
+.sidebar-mypage {
+  float: right;
+  width: 280px;
+  min-height: 400px;
+  padding: $space_l;
+  background: #fff;
+  box-sizing: border-box;
+  a {
+    display: block;
+    margin-bottom: $space_l;
+    color: $color_corp;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+// ========================================
 // 論文投稿
 // ========================================
 .post-container {
@@ -291,6 +325,8 @@ a:hover {
     padding: $space_l $space_3l;
     margin-top: $space_xxl;
     background: #fff;
+    width: 720px;
+    float: left;
     .imgDrop-container {
       width: 27%;
       margin-top: $space_l;
