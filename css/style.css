@@ -221,7 +221,9 @@ a:hover {
   border: 3px solid #12157b;
   padding: 15px 40px;
   margin-top: 30px;
-  background: #fff; }
+  background: #fff;
+  width: 720px;
+  float: left; }
   .post-container .form-container .imgDrop-container {
     width: 27%;
     margin-top: 15px; }
