@@ -165,6 +165,7 @@ require('header.php');
           </div>
         </form>
       </div>
+      <?php require('sidebar_mypage.php'); ?>
     </div>
   </div>
 </main>
