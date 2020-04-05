@@ -319,11 +319,11 @@ a:hover {
   .title {
     text-align: center;
     font-size: $font-size_3l;
+    margin-bottom: $space_xxl;
   }
   .form-container {
     border: 3px solid $color_corp;
     padding: $space_l $space_3l;
-    margin-top: $space_xxl;
     background: #fff;
     width: 720px;
     float: left;
@@ -372,6 +372,10 @@ a:hover {
         margin-bottom: $space_l;
         margin-top: $space_s;
       }
+      input[type="number"] {
+        display: block;
+        width: 20%;
+      }
       select {
         display: block;
         margin-bottom: $space_l;
@@ -395,6 +399,10 @@ a:hover {
         font-size: $font-size_m;
         margin-left: $space_s;
         vertical-align: top;
+      }
+      .additional {
+        font-size: $font-size_s;
+        margin-left: $space_s;
       }
     }
   }

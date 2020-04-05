@@ -215,12 +215,12 @@ a:hover {
 
 .post-container .title {
   text-align: center;
-  font-size: 36px; }
+  font-size: 36px;
+  margin-bottom: 30px; }
 
 .post-container .form-container {
   border: 3px solid #12157b;
   padding: 15px 40px;
-  margin-top: 30px;
   background: #fff;
   width: 720px;
   float: left; }
@@ -262,6 +262,9 @@ a:hover {
     background: #f6f5f5;
     margin-bottom: 15px;
     margin-top: 5px; }
+  .post-container .form-container label input[type="number"] {
+    display: block;
+    width: 20%; }
   .post-container .form-container label select {
     display: block;
     margin-bottom: 15px;
@@ -283,6 +286,9 @@ a:hover {
     font-size: 14px;
     margin-left: 5px;
     vertical-align: top; }
+  .post-container .form-container label .additional {
+    font-size: 12px;
+    margin-left: 5px; }
 
 .article {
   float: left;
