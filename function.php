@@ -51,7 +51,11 @@ define('MSG07', 'エラーが発生しました。しばらく経ってからや
 define('MSG08', 'そのEmailアドレスはすでに使用されています');
 define('MSG09', 'Emailアドレスまたはパスワードが正しくありません');
 define('MSG10', '正しくありません');
+define('MSG11', '半角数字のみご利用いただけます');
+define('MSG12', '電話番号の形式で入力してください');
+define('MSG13', '郵便番号の形式で入力してください');
 define('SUC01', '登録しました');
+define('SUC02', 'プロフィールを更新しました');
 
 // ==============================================
 // エラーメッセージ格納用の配列
@@ -95,10 +99,10 @@ function validMinLen($str, $key, $min = 8) {
 
 // 半角チェック
 function validHalf($str, $key) {
-    if (!preg_match("/^[a-zA-Z0-9]+$/", $str)) {
-      global $err_msg;
-      $err_msg[$key] = MSG03;
-    }
+  if (!preg_match("/^[a-zA-Z0-9]+$/", $str)) {
+    global $err_msg;
+    $err_msg[$key] = MSG03;
+  }
 }
 
 // 同値チェック
@@ -106,6 +110,30 @@ function validMatch($str1, $str2, $key) {
   if ($str1 !== $str2) {
     global $err_msg;
     $err_msg[$key] = MSG05;
+  }
+}
+
+// 数字チェック
+function validNumber($str, $key) {
+  if (!preg_match("/^[0-9]+$/", $str)) {
+    global $err_msg;
+    $err_msg[$key] = MSG11;
+  }
+}
+
+// 電話番号形式チェック
+function validTel($str, $key) {
+  if (!preg_match("/0\d{1,4}\d{1,4}\d{4}/", $str)) {
+    global $err_msg;
+    $err_msg[$key] = MSG12;
+  }
+}
+
+// 郵便番号形式チェック
+function validZip($str, $key) {
+  if (!preg_match("/^(([0-9]{3}-[0-9]{4})|([0-9]{7}))$/", $str)) {
+    global $err_msg;
+    $err_msg[$key] = MSG13;
   }
 }
 
@@ -345,7 +373,7 @@ function getFavorite($u_id) {
       return false;
     }
   } catch (Exception $e) {
-    erro_log('エラー発生：'.$e->getMessage());
+    error_log('エラー発生：'.$e->getMessage());
     $err_msg['common'] = MSG07;
   }
 }
