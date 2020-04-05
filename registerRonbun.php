@@ -158,7 +158,7 @@ require('header.php');
             </div>
             <div class="area-msg">
                   <?php if(!empty($err_msg['image'])) echo $err_msg['image']; ?>
-                </div>
+            </div>
           </div>
           <div class="btn-container">
             <input type="submit" class="btn btn-submit" value="<?php echo (!$edit_flg) ? '投稿する' : '編集する'; ?>">
