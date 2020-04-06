@@ -16,7 +16,7 @@ debug('取得したユーザー情報：'.$_SESSION['user_id']);
 if (!empty($_POST)) {
   debug('POST送信があります');
   debug('POST情報：'.print_r($_POST, true));
-  debug('FILE情報：'.print_r($_FILE, true));
+  debug('FILE情報：'.print_r($_FILES, true));
 
   $username = $_POST['username'];
   $age = $_POST['age'];
@@ -24,7 +24,7 @@ if (!empty($_POST)) {
   $zip = (!empty($_POST['zip'])) ? $_POST['zip'] : 0;
   $address = $_POST['address'];
   $email = $_POST['email'];
-  $pic = (!empty($_FILE['pic']['name'])) ? uploadImg($_FILE['pic'], 'pic') : '';
+  $pic = (!empty($_FILES['pic']['name'])) ? uploadImg($_FILES['pic'], 'pic') : '';
   $pic = (empty($pic) && !empty($dbFormData['pic'])) ? $dbFormData['pic'] : $pic;
 
   if ($dbFormData['username'] !== $username) {
