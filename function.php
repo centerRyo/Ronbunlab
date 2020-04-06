@@ -520,3 +520,12 @@ function appendGetParam($arr_del_key = array()) {
     return $str;
   }
 }
+
+// セッションを1回だけ取得する
+function getSessionFlash($key) {
+  if (!empty($_SESSION[$key])) {
+    $data = $_SESSION[$key];
+    $_SESSION[$key] = '';
+    return $data;
+  }
+}
