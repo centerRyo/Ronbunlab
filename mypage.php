@@ -27,6 +27,10 @@ require('head.php');
 require('header.php');
 ?>
 
+  <p id="js-show-msg" style="display:none" class="msg-slide">
+    <?php echo getSessionFlash('msg_success') ?>
+  </p>
+
   <main class="container-wrapper">
     <div class="profile-container">
       <section class="site-width">
@@ -37,9 +41,9 @@ require('header.php');
           <div class="profile-info">
             <h2><?php echo sanitize($myUserInfo['username']); ?></h2>
             <div class="share-icon">
-              <i class="fab fa-facebook-square"></i>
-              <i class="fab fa-twitter-square"></i>
-              <i class="fab fa-instagram-square"></i>
+              <a href="https://ja-jp.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/?hl=ja"><i class="fab fa-instagram-square"></i></a>
             </div>
           </div>
         </section>
