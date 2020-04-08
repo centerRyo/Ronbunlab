@@ -54,8 +54,11 @@ define('MSG10', '正しくありません');
 define('MSG11', '半角数字のみご利用いただけます');
 define('MSG12', '電話番号の形式で入力してください');
 define('MSG13', '郵便番号の形式で入力してください');
+define('MSG14', 'パスワードが一致しません');
+define('MSG15', '新しいパスワードは古いパスワードと異なるものにしてください');
 define('SUC01', '登録しました');
 define('SUC02', 'プロフィールを更新しました');
+define('SUC03', 'パスワードを変更しました');
 
 // ==============================================
 // エラーメッセージ格納用の配列
@@ -165,6 +168,13 @@ function validSelect($str, $key) {
     global $err_msg;
     $err_msg[$key] = MSG10;
   }
+}
+
+// パスワードチェック
+function validPass($str, $key) {
+  validHalf($str, $key);
+  validMaxLen($str, $key);
+  validMinLen($str, $key);
 }
 
 // =============================================
@@ -375,6 +385,23 @@ function getFavorite($u_id) {
   } catch (Exception $e) {
     error_log('エラー発生：'.$e->getMessage());
     $err_msg['common'] = MSG07;
+  }
+}
+
+// =================================================
+// メール送信
+// =================================================
+function sendMail($from, $to, $subject, $comment) {
+  if (!empty($to) && !empty($subject) && !empty($comment)) {
+    mb_language('Japanese');
+    mb_internal_encoding('UTF-8');
+
+    $result = mb_send_mail($to, $subject, $comment, 'From: '.$from);
+    if ($result) {
+      debug('メールの送信に成功しました');
+    } else {
+      debug('、【エラー発生】メールの送信に失敗しました');
+    }
   }
 }
 
