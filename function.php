@@ -59,6 +59,7 @@ define('MSG15', '新しいパスワードは古いパスワードと異なるも
 define('SUC01', '登録しました');
 define('SUC02', 'プロフィールを更新しました');
 define('SUC03', 'パスワードを変更しました');
+define('SUC04', 'メールを送信しました');
 
 // ==============================================
 // エラーメッセージ格納用の配列
@@ -555,4 +556,14 @@ function getSessionFlash($key) {
     $_SESSION[$key] = '';
     return $data;
   }
+}
+
+// ランダムな数を作成する
+function makeRandKey($length = 8) {
+  $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  $str = '';
+  for ($i = 0; $i <= $length; $i++) {
+    $str .= $chars[mt_rand(0, 61)];
+  }
+  return $str;
 }
