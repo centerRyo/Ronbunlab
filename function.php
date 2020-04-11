@@ -56,6 +56,8 @@ define('MSG12', '電話番号の形式で入力してください');
 define('MSG13', '郵便番号の形式で入力してください');
 define('MSG14', 'パスワードが一致しません');
 define('MSG15', '新しいパスワードは古いパスワードと異なるものにしてください');
+define('MSG16', '文字で入力してください');
+define('MSG17', '有効期限切れです');
 define('SUC01', '登録しました');
 define('SUC02', 'プロフィールを更新しました');
 define('SUC03', 'パスワードを変更しました');
@@ -176,6 +178,14 @@ function validPass($str, $key) {
   validHalf($str, $key);
   validMaxLen($str, $key);
   validMinLen($str, $key);
+}
+
+// 固定長チェック
+function validLength($str, $key, $length = 8) {
+  if (mb_strlen($str) !== $length) {
+    global $err_msg;
+    $err_msg[$key] = $length . MSG16;
+  }
 }
 
 // =============================================
@@ -562,7 +572,7 @@ function getSessionFlash($key) {
 function makeRandKey($length = 8) {
   $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
   $str = '';
-  for ($i = 0; $i <= $length; $i++) {
+  for ($i = 0; $i < $length; $i++) {
     $str .= $chars[mt_rand(0, 61)];
   }
   return $str;
