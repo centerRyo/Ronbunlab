@@ -64,6 +64,10 @@ require('header.php');
                   <img src="<?php echo showImg(sanitize($ronbun['image'])); ?>" alt="<?php echo sanitize($ronbun['title']) ?>" class="content-image">
                   <p><?php echo sanitize($ronbun['title']) ?></p>
                 </a>
+                <div class="btn-container">
+                  <a href="registerRonbun.php?r_id=<?php echo $ronbun['id']; ?>" class="btn-edit">編集する</a>
+                  <a href="deleteRonbun.php?r_id=<?php echo $ronbun['id']; ?>" class="btn-delete">削除する</a>
+                </div>
               </div>
             <?php
                 endforeach;

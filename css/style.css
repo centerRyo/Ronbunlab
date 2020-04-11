@@ -379,6 +379,25 @@ a:hover {
     border-radius: 3px;
     padding: 10px;
     margin-top: 15px; }
+  .btn-container .btn-edit {
+    font-size: 12px;
+    float: left;
+    background: #12157b;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px; }
+  .btn-container .btn-edit:hover {
+    background: rgba(18, 21, 123, 0.7); }
+  .btn-container .btn-delete {
+    font-size: 12px;
+    float: left;
+    background: #c32929;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 10px; }
+  .btn-container .btn-delete:hover {
+    background: rgba(195, 41, 41, 0.7); }
   .btn-container .btn-right {
     float: right; }
   .btn-container .btn:hover {

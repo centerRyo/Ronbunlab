@@ -533,6 +533,29 @@ a:hover {
     padding: $space_m;
     margin-top: $space_l;
   }
+  .btn-edit {
+    font-size: $font-size_s;
+    float: left;
+    background: $color_corp;
+    padding: $space_s $space_m;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .btn-edit:hover {
+    background: rgba($color_corp, .7);
+  }
+  .btn-delete {
+    font-size: $font-size_s;
+    float: left;
+    background: #c32929;
+    padding: $space_s $space_m;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: $space_m;
+  }
+  .btn-delete:hover {
+    background: rgba(#c32929, .7);
+  }
   .btn-right {
     float: right;
   }
