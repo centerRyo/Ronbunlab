@@ -13,20 +13,20 @@ require('auth.php');
 // 画面表示処理
 // ==========================================
 // GETデータを格納
-$p_id = (!empty($_GET['p_id'])) ? $_GET['p_id'] : '';
+$r_id = (!empty($_GET['r_id'])) ? $_GET['r_id'] : '';
 // DBから論文データを取得
-$dbFormData = (!empty($p_id)) ? getRonbun($_SESSION['user_id'], $p_id) : '';
+$dbFormData = (!empty($r_id)) ? getRonbun($_SESSION['user_id'], $r_id) : '';
 // 新規登録画面か編集画面か判別用フラグ
 $edit_flg = (empty($dbFormData)) ? false : true;
 // DBからカテゴリを取得
 $dbCategoryData = getCategory();
-debug('論文ID:'.$p_id);
+debug('論文ID:'.$r_id);
 debug('フォーム用DBデータ：'.print_r($dbFormData, true));
 debug('カテゴリデータ：'.print_r($dbCategoryData, true));
 
 // パラメータ改ざんチェック
 // GETパラメータはあるが、改ざんされている場合、正しい論文データが取ってこれないのでマイページへ遷移する
-if (!empty($p_id) && empty($dbFormData)) {
+if (!empty($r_id) && empty($dbFormData)) {
   debug('GETパラメータの論文IDが異なります。マイページへ遷移します');
   header("Location:mypage.php");
 }
@@ -73,8 +73,8 @@ if (!empty($_POST)) {
       $dbh = dbConnect();
       if ($edit_flg) {
         debug('DB更新です');
-        $sql = 'UPDATE ronbun SET title = :title, category_id = :category, abstract = :abstract, detail = :detail, image = :image WHERE user_id = :u_id AND id = :p_id';
-        $data = array(':title' => $title, ':category' => $category, ':abstract' => $abstract, ':detail' => $detail, ':image' => $image, ':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
+        $sql = 'UPDATE ronbun SET title = :title, category_id = :category, abstract = :abstract, detail = :detail, image = :image WHERE user_id = :u_id AND id = :r_id';
+        $data = array(':title' => $title, ':category' => $category, ':abstract' => $abstract, ':detail' => $detail, ':image' => $image, ':u_id' => $_SESSION['user_id'], ':r_id' => $r_id);
       } else {
         debug('新規登録です');
         $sql = 'INSERT INTO ronbun (title, category_id, abstract, detail, image, user_id, created_date) VALUES (:title, :category, :abstract, :detail, :image, :u_id, :date)';
