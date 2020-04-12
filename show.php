@@ -30,6 +30,7 @@ require('head.php');
     <div class="site-width">
 
       <section class="article">
+        <span class="category-name"><?php echo sanitize($viewData['category']); ?></span>
         <h1 class="article-title"><?php echo sanitize($viewData['title']); ?></h1>
         <div class="article-image">
           <img src="<?php echo showImg(sanitize($viewData['image'])); ?>" alt="">
