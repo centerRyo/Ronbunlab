@@ -84,7 +84,10 @@ require('header.php');
                 foreach($favoriteData as $key => $favorite):
             ?>
             <div class="content">
-              <a href="show.php?r_id=<?php echo sanitize($favorite['']) ?>"></a>
+              <a href="show.php?r_id=<?php echo sanitize($favorite['ronbun_id']); ?>">
+                <img src="<?php echo showImg(sanitize($favorite['image'])); ?>" alt="<?php echo sanitize($favorite['title']); ?>" class="content-image">
+                <p><?php echo sanitize($favorite['title']); ?></p>
+              </a>
             </div>
             <?php
                 endforeach;
