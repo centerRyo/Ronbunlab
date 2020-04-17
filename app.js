@@ -82,3 +82,26 @@ if (msg.replace(/^[\s　]+|[\s　]+$/g, "").length) {
   }, 5000);
 }
 
+// =======================================
+// お気に入り登録、削除
+// =======================================
+let $favorite = $('.js-click-favorite') || null;
+let favoriteRonbunId = $favorite.data('ronbunid') || null;
+if (favoriteRonbunId !== undefined && favoriteRonbunId !== null) {
+  $favorite.on('click', function() {
+    let $this = $(this);
+    $.ajax({
+      type: "POST",
+      url: "ajaxFavorite.php",
+      data: { ronbunId: favoriteRonbunId }
+    }).done(function(data) {
+      console.log('Ajax Success');
+      $this.toggleClass('active');
+    }).fail(function(msg) {
+      console.log('Ajax Error');
+    });
+  });
+}
+$favorite.on('click', function() {
+  alert('お気に入り登録しました！');
+});

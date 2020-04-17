@@ -399,6 +399,29 @@ function getFavorite($u_id) {
   }
 }
 
+function isFavorite($u_id, $r_id) {
+  debug('お気に入り情報があるか確認します');
+  debug('ユーザーID:'.$u_id);
+  debug('論文ID：'.$r_id);
+  try {
+    $dbh = dbConnect();
+    $sql = 'SELECT * FROM favorite WHERE user_id = :u_id AND ronbun_id = :r_id';
+    $data = array(':u_id' => $u_id, ':r_id' => $r_id);
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if ($stmt->rowCount()) {
+      debug('お気に入りに登録されています');
+      return true;
+    } else {
+      debug('お気に入りに登録されていません');
+      return false;
+    }
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+    $err_msg['common'] = MSG07;
+  }
+}
+
 // =================================================
 // メール送信
 // =================================================

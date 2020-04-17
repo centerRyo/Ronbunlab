@@ -129,9 +129,6 @@ a:hover {
         margin-bottom: $space_xl;
         color: $color_corp;
       }
-      i {
-        font-size: $font-size_l;
-      }
     }
   }
 }
@@ -459,6 +456,7 @@ a:hover {
   }
   &-detail {
     margin-top: $space_xl;
+    margin-bottom: $space_xl;
   }
   h2 {
     text-align: center;
@@ -561,6 +559,26 @@ a:hover {
   }
   .btn:hover {
     cursor: pointer;
+  }
+}
+
+.share-icon {
+  overflow: hidden;
+  i {
+    font-size: $font-size_xxl;
+    margin-right: $space_m;
+  }
+  .icon-right {
+    float: right;
+  }
+  .icon-favorite {
+    color: #afafaf;
+  }
+  .icon-favorite:hover {
+    cursor: pointer;
+  }
+  .active {
+    color: #ea90c1;
   }
 }
 

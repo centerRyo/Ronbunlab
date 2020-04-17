@@ -81,8 +81,6 @@ a:hover {
         font-size: 24px;
         margin-bottom: 20px;
         color: #12157b; }
-      .profile-container .profile-info i {
-        font-size: 20px; }
 
 .container {
   width: 500px;
@@ -327,7 +325,8 @@ a:hover {
   .article-abstract {
     margin-top: 20px; }
   .article-detail {
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-bottom: 20px; }
   .article h2 {
     text-align: center;
     font-size: 30px;
@@ -402,6 +401,20 @@ a:hover {
     float: right; }
   .btn-container .btn:hover {
     cursor: pointer; }
+
+.share-icon {
+  overflow: hidden; }
+  .share-icon i {
+    font-size: 30px;
+    margin-right: 10px; }
+  .share-icon .icon-right {
+    float: right; }
+  .share-icon .icon-favorite {
+    color: #afafaf; }
+  .share-icon .icon-favorite:hover {
+    cursor: pointer; }
+  .share-icon .active {
+    color: #ea90c1; }
 
 .msg-slide {
   position: fixed;

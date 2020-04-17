@@ -45,6 +45,12 @@ require('head.php');
           <h2>本文</h2>
           <p><?php echo nl2br(sanitize($viewData['detail'])); ?></p>
         </div>
+        <div class="share-icon">
+          <a href="https://ja-jp.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/?hl=ja"><i class="fab fa-instagram-square"></i></a>
+          <i class="icon-right fas fa-heart js-click-favorite icon-favorite <?php if(isFavorite($_SESSION['user_id'], $viewData['id'])) { echo 'active'; } ?>" data-ronbunid="<?php echo sanitize($viewData['id']); ?>" aria-hidden="true"></i>
+        </div>
       </section>
 
       <?php
