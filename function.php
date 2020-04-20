@@ -194,9 +194,13 @@ function validLength($str, $key, $length = 8) {
 // DB接続関数
 function dbConnect() {
   // 開発環境用
-  $dsn = 'mysql:dbname=ronbunlab;host=localhost;charset=utf8';
-  $user = 'root';
-  $password = 'root';
+  // $dsn = 'mysql:dbname=ronbunlab;host=localhost;charset=utf8';
+  // $user = 'root';
+  // $password = 'root';
+  // 本番環境用
+  $dsn = 'mysql:dbname=renasce_ronbun;host=mysql1.php.xdomain.ne.jp;charset=utf8';
+  $user = 'renasce_ronbun';
+  $password = 'ronbunlab';
   $options = array(
     // SQL実行失敗時にはエラーコードのみ設定
     PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING,
