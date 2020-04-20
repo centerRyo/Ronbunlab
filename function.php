@@ -198,7 +198,7 @@ function dbConnect() {
   // $user = 'root';
   // $password = 'root';
   // 本番環境用
-  $dsn = 'mysql:dbname=renasce_ronbun;host=mysql1.php.xdomain.ne.jp;charset=utf8';
+  $dsn = 'mysql:dbname=renasce_ronbunlab;host=mysql1.php.xdomain.ne.jp;charset=utf8';
   $user = 'renasce_ronbun';
   $password = 'ronbunlab';
   $options = array(
